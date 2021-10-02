@@ -1,0 +1,61 @@
+.dash{
+    margin: 2rem auto;
+    max-width: 1440px;
+}
+
+.dashContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashTable{
+    background-color: #ffff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.tableTitle{
+    text-align: start;
+    padding: 0 0 0.6rem 0.6rem;
+}
+
+.tableTitle:nth-child(3){
+    text-align: center;
+}
+
+.tableContent{
+    width: 15rem;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.tableContent:hover{
+    box-shadow: 0 4px 4px rgb(0, 0, 0, .20);
+    background-color: rgb(0, 0, 0, .10);
+}
+
+.tableLine{
+    padding: 0.6rem;
+}
+
+.tableLine:nth-child(2){
+    max-width: 100%;
+}
+
+.tableLine:nth-child(3){
+    width: 8rem;
+    text-align: center;
+}
+
+.tableLine:nth-child(5){
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+}
+
+.tableLine:nth-child(5) i{
+    cursor: pointer;
+    color: #000000;
+}

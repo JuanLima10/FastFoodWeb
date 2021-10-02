@@ -1,0 +1,43 @@
+.loja{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.lojaContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.lojaPerfil p{
+    margin-bottom: 2.4rem;
+}
+
+.lojaPerfil p:nth-child(2){
+    margin-bottom: 1rem;
+}
+
+.lojaPerfil a{
+    width: 18rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #606060;
+    background-color: #ffffff;
+    border: 1px solid #606060;
+    border-radius: 10px;
+}
+
+.lojaPerfil i{
+    width: 2rem;
+    font-size: 1rem;
+}
+
+table{
+    width: 90%;
+}

@@ -1,0 +1,138 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+
+  background: #1d1c1f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.formInput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.formInput .formField{
+  width: 18rem;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 1rem;
+  outline: none;
+  background-color: #ffffff;
+  border: 1px solid #606060;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.backButton i{
+  font-size: 1.4rem;
+  padding: 0.2rem;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.buttonField{
+  width: 18rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.78rem;
+  font-size: 1rem;
+  color: #606060;
+  background-color: #ffffff;
+  border: 1px solid #606060;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.buttonField:hover{
+  transition: 0.5s;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.buttonFieldForm{
+  width: 18rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.78rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.buttonFieldForm:hover{
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.paginations{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.paginationsButton{
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.paginationsButton:hover{
+  transition: 0.2s;
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.paginationsButtonSpecial{
+  max-width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* @media screen and (max-width: 1330px) {
+  html{
+    font-size: 52%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  html{
+    font-size: 48%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  html{
+    font-size: 40%;
+  }
+} */

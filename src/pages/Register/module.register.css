@@ -1,0 +1,19 @@
+.register{
+    margin: 2rem auto;
+    max-width: 1440px;
+}
+
+.registerForm{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.formError{
+    font-size: 0.8rem;
+    color: firebrick;
+}
+
